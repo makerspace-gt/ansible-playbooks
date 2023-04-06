@@ -1,4 +1,4 @@
-Gerät 1,Port 1,Gerät 2,Port 2,Netz,Kommentar
+from device,from port,to device,to port,network,comment
 TP-LINK Switch,1,,,makerspace-gt,
 TP-LINK Switch,2,,,makerspace-gt,
 TP-LINK Switch,3,P01,11,makerspace-gt,
