@@ -1,0 +1,22 @@
+---
+
+# pb.docker.yml
+
+- hosts: all
+  user: root
+  become: true
+
+  tasks:
+    - name: copy ssh keys
+      # https://stackoverflow.com/a/48882051
+      authorized_key:
+        user: root
+        key: https://github.com/{{ item }}.keys
+        comment: '{{ item }}'
+      ignore_errors: yes
+      with_items:
+        - igami
+        - stikkx
+        - leon2225
+        - mattn81
+        - bongald
