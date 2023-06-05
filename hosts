@@ -16,17 +16,8 @@ forum.makerspace-gt.de
 docker.makerspace-gt.de
 #192.251.226.14
 
-[Nextcloud_AIO]
-aio.makerspace-gt.de
-
-[igami]
-igami.makerspace-gt.de
-
-[matrix]
-matrix.makerspace-gt.de
-
 [discovery.space.gt]
 discovery.makerspace-gt.de
 
-[nextcloud.space.gt]
-nextcloud.makerspace-gt.de
+[cloud.makerspace-gt.de]
+cloud.makerspace-gt.de
